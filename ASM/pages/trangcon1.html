@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            max-width: 1980px;
+            margin: 0 auto;
+            padding: 0 auto;
+        }
+        header{
+            width: 100%;
+            height: 420px;
+        }   
+        .img{
+            background-image: url(../img/mangxahoi.avif);
+            width: 100%;
+            height: 400px;
+        }
+        header > nav{
+            line-height: 40px;
+            background-color: blue;
+            color: white;
+            text-align: center;
+            font-variant: small-caps;
+        }
+        .menu >ul >li{
+            display:inline-block;
+            position:relative;
+            text-align: center;
+            
+        }
+        .menu>ul>li>a{
+            display:block;
+            text-decoration:none;
+            font-variant:small-caps;
+            font-size:larger;
+            color:white;
+            padding:0 10px;
+            line-height:40px;  
+        }
+        .menu>ul{
+            padding:0px;
+            margin:0px;
+            list-style:none;
+            border-radius:3px;
+            background-color:red;
+            float: left;
+            text-align: center;
+            width: 100%;
+        }
+        .menu>ul>li>a:hover{
+            color:yellow;
+        }
+        
+        .menu>ul>li:hover>ul{
+            display:block;
+            background-color:orangered;
+            color:white;
+        }
+        .menu  ul a{
+            display:block;
+            color:white;
+            text-decoration:none;
+            font-variant:small-caps;
+            font-size:larger;
+            padding:0 10;
+        }
+        main{
+            max-width: 1300px;
+            margin: 0 auto;
+            height: auto;
+            
+        }
+        .sanpham{
+           
+            height: 550px;
+            width: 100%;
+            position: relative;
+            
+        
+        }
+        .left{
+            width: 35%;
+            float: left;
+            height: 300px;
+        }
+        .right{
+            width: 64%;
+            float: left;
+            height: 300px;
+            padding: 20px;
+           
+        }
+        .niemyet{
+            border-radius:10px;
+        box-shadow:0 0 5px gray;
+        margin:5px;
+        padding:5px;
+        line-height: 80px;
+        font-size: xx-large;
+        text-align: center;
+        color:orangered;
+        }
+        label{
+            float: left;
+            padding: 30px;
+        }
+        .vnom{
+            margin: 10px;
+            margin-top: -4px;
+            margin-bottom: 10px;
+            margin-left: -4px;
+            padding: 30px;
+           
+        }
+        a{
+            list-style: none;
+            text-decoration: none;
+            
+        }
+        input{
+            padding: 10px;
+            text-align: center;
+            
+        }
+        .vnu{
+            margin: 10px;
+            margin-top: -4px;
+            margin-bottom: 10px;
+            margin-left: -4px;
+            padding: 30px;
+            box-shadow:0 0 5px gray;
+             float: left;
+             
+        }
+        .color{
+            background-color: red;
+            color: white;
+            
+        }
+        footer{
+            max-width: 1980px;
+            height: 300px;
+            font-variant:small-caps;
+            background-color: antiquewhite;
+          
+        }
+        .end{
+            width: 1300px;
+            margin: auto;
+            height: 300px;
+           
+        }
+        
+       .foter{
+       
+            width: 33%;
+            height: 200px;
+            float: left;
+            text-align: center;
+       }
+       
+       h2{
+        font-weight: bold;
+        margin: 10px;
+       }
+       .link{
+        width: auto;
+        border-radius:10px;
+        clear: both;
+        margin:10px;
+       }
+       
+       .dowload img{
+        padding-top: 10px;
+        clear: both;
+       }
+       .trailer{
+        margin: 10px;
+        padding-bottom: 20px;
+       }
+       .thongtin > h2{
+        height: 30px;
+        font-weight: bold;
+        margin: 10px;
+        border-radius:10px;
+        background-color: aqua;
+        
+       }
+       .thongtin{
+        height: auto;
+        margin: 4px;
+       }
+       .vnm{
+        padding: 30px;
+       }
+      
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Liên hệ</a>
+                    <li><a href="#">Góp ý</a></li>
+                    <li><a href="#">Gỏi đáp</a></li>
+                    
+                    </ul>
+            </nav>
+            <div class="img"></div>
+        </header>
+        <main>
+            <div class="sanpham">
+                <div class="left">
+                    <img src="../img/ip14.jpg" alt="" width="100%">
+                </div>
+                <div class="right">
+                        <div>
+                            <h2>iPhone 14 128GB | Chính hãng VN/A</h2>
+                        </div>
+                        <div class="niemyet">1700$ - 2000$</div>
+                        <div>
+                            <label for="">Bảo hiểm</label>
+                            <div class="vnom">Bảo hiểm thiết bị điện tử.
+                                <a href="#">Tìm hiểu thêm</a>
+                            </div>
+                        </div>
+                        <div class="ship">
+                            <label for="" class="now">Vận chuyển</label>
+                            <div class="vnom now">Miễn phí  vận chuyển
+                               </div>
+                        </div>
+                        <div>
+                            <button>Số lượng</button>
+                            <input type="text">
+                            <button>12 Sản phẩm có sẵn</button>
+                        </div>
+                        <div class="vnom">
+                            <button class="vnu">Thêm vào giỏ hàng</button>
+                            <button class="vnu color">Mua Ngay</button>
+                        </div>
+                       
+                </div>
+            </div>
+            <div class="trailer">
+                <div class="thongtin">
+                    <h2>Chi tiết sản phẩm</h2>
+                    <div>
+                        <label for="">Thương hiệu</label>
+                        <div class="vnm">Iphone
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <label for="">Kích thước màn hình</label>
+                        <div class="vnm">6.1 inches
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <label for="">Vi xử lí chipset</label>
+                        <div class="vnm">
+                            Apple A15 Bionic
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <label for="">Công nghệ màn hình</label>
+                        <div class="vnm">OLED
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <label for="">Tình trạng</label>
+                        <div class="vnm">Mới
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <label for="">Hạn bảo hành</label>
+                        <div class="vnm">1  2 tháng
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <label for="">Loại bảo hành</label>
+                        <div class="vnm">Bảo hành nhà sản xuất
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="thongtin"><h2>Đặc điểm nổi bật</h2></div>
+                <div>
+                    Thông số iPhone 14 128GB | Chính hãng VN/A <br>
+                    •	Tuyệt đỉnh thiết kế, tỉ mỉ từng đường nét - Nâng cấp toàn diện với kiểu dáng mới, nhiều lựa chọn màu sắc trẻ trung<br>
+                    •	Nâng tầm trải ngiệm giải trí đỉnh cao - Màn hình 6,1"" cùng tấm nền OLED có công nghệ Super Retina XDR cao cấp <br>
+                    •	Chụp ảnh chuyên nghiệp hơn - Cụm 2 camera 12 MP đi kèm nhiều chế độ và chức năng chụp hiện đại <br>
+                    •	Hiệu năng hàng đầu thế giới - Apple A15 Bionic 6 nhân xử lí nhanh, ổn định <br>
+                    •	Bảo hành chính hãng 12 tháng tại trung tâm bảo hành Iphone <br>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <div class="end">
+            <div class="cskh foter">
+                <h2>chăm sóc khách hàng</h2>
+                <div class="link"><a href="#" >
+                    Thanh toán 
+                </a></div> 
+                <div class="link"><a href="#" >
+                    Vận chuyển 
+                </a></div> 
+                <div class="link"><a href="#" >
+                    Chính sách bảo hành
+                </a></div> 
+             </div>
+             <div class="bank foter"><h2>Thanh toán</h2>
+                <div class="link"><img src="../img/visa.jpg" alt="" width="150px">
+                </div>
+                    <img src="../img/viettelmoney.png" alt="" width="140px">
+                    <div></div>
+            </div>
+             <div class="app foter">
+                <h2>Tải app ngay thôi</h2>
+                <div class="dowload">
+                    <div>
+                    <a href="#"><img src="../img/appstore.png" alt="" width="20%">
+                        
+                    </a></div>
+                    <a href="#">
+                        <div><img src="../img/chplay.jpg" alt="" width="20%"></div>
+                    </a>
+                </div>
+             </div>
+        </div>
+     </footer>
+</body>
+</html>

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1980px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+header{
+    width: 100%;
+    height: 420px;
+}
+header > nav{
+    line-height: 40px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+.menu >ul >li{
+    display:inline-block;
+    position:relative;
+    text-align: center;
+    
+}
+.menu>ul>li>a{
+    display:block;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    color:white;
+    padding:0 10px;
+    line-height:40px;  
+}
+.menu>ul{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius:3px;
+    background-color:orangered;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.menu>ul>li>a:hover{
+    color:yellow;
+}
+
+.menu>ul>li:hover>ul{
+    display:block;
+    background-color:orangered;
+    color:white;
+}
+.menu  ul a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    padding:0 10;
+}
+
+main{
+    max-width: 1300px;
+    margin: 0 auto;
+    height: auto;
+    
+}
+.new{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    
+}
+.container > footer{
+    width: 100%;
+    border-top:1px double orangered;
+    line-height:300px;
+    font-variant:small-caps;
+}
+.sanpham {
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+.col-25{
+width:25%;
+
+float: left;
+        }
+.prod{
+border-radius:10px;
+box-shadow:0 0 5px gray;
+margin:5px;
+padding:5px;
+height: 350px;
+text-align:center;
+position:relative;
+}
+.prod .price{
+position:absolute;
+left:5px;
+bottom:5px;
+font-family:Impact;
+font-size:25px;
+color:orange;
+}
+.in4{
+    position: absolute;
+    left:5px;
+}
+.prod .name{
+font-variant:small-caps;
+color:orangered;
+font-size: xx-large;
+height: 40px
+}
+.prod .image{
+max-width:90%;
+height:200px;
+margin-bottom:10px;
+}
+.title{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    font-variant: small-caps;
+}
+
+.img{
+    background-image: url(../img/mangxahoi.avif);
+    width: 100%;
+    height: 400px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+
+.prod .new-icon{
+float:right;
+top:0px;
+right:0px;
+width: 30%;
+
+}
+.prod .icons img{
+    width: 25px;
+    height: 25px;
+    
+}
+.price{
+    text-align: center;
+    color:red;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+}
+.price del{
+    color: gray;
+}
+footer{
+    max-width: 1980px;
+    height: 300px;
+    font-variant:small-caps;
+    background-color: antiquewhite;
+}
+.end{
+    width: 1300px;
+    margin: auto;
+    height: 300px;
+}
+
+.foter{
+    border: 1px solid green;
+    width: 25%;
+    height: 200px;
+    float: left;
+}
+.link{
+float: left;
+}
+h2{
+font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Liên hệ</a>
+                    <li><a href="#">Góp ý</a></li>
+                    <li><a href="#">Gỏi đáp</a></li>
+                    
+                    </ul>
+            </nav>
+            <div class="img"></div>
+        </header>
+        <main>
+            <div class="title">
+                <a href="#"><h2>Tìm kiếm hàng đầu</h2></a>
+            </div>
+            <div class="new">
+                <a href="#">
+               <div class="col-25">
+                <div class="prod">
+                    <div class="name">Điện Thoại</div>
+                    <img class="image" src="../img/dienthoai.jpg" alt="hinh">
+                </div>
+               </div>
+               <div class="col-25">
+                <div class="prod">
+                    <div class="name">Quần Áo</div>
+                    <img class="image" src="../img/quanao.jpg" alt="hinh">
+                </div>
+               </div>
+               <div class="col-25">
+                <div class="prod">
+                    <div class="name">Trang Sức</div>
+                    <img class="image" src="../img/trangsuc.jpg" alt="hinh">
+                </div>
+               </div>
+               <div class="col-25">
+                <div class="prod">
+                    <div class="name">Thiết Bị Gia Dụng</div>
+                    <img class="image" src="../img/thietbigiadung.jpg"alt="hinh">
+                </div>
+               </div>
+            </a>
+            </div>
+       
+            <div class="title">
+                <h2>Sale</h2>
+            </div>
+            <div class="sanpham">
+                <a href="../pages/trangcon1.html">
+                <div class="col-25">
+                    <div class="prod">
+                        <div class="name">Iphone 14</div>
+                        <img class="image" src="../img/ip14.jpg" alt="hinh">
+                            <div><img class="new-icon" src="../img/giohang.jpg" alt="hinh"></div>
+                            <div class="price"><del>2000$   </del>    1700$</div>
+                    </div>
+                    </div>   
+                    <div class="col-25">
+                        <div class="prod">
+                            <div class="name">Macbook M1 2020</div>
+                            <img class="image" src="../img/macbook.png" alt="hinh">
+                                <img class="new-icon" src="../img/giohang.jpg" alt="hinh">
+                                <div class="price"><del>1000$</del>   750$</div>
+                        </div>
+                        </div>
+                        <div class="col-25">
+                            <div class="prod">
+                                <div class="name">TiVi Xiaomi 4K UHD 55 Inch</div>
+                                <img class="image" src="../img/tivi.webp" alt="hinh">
+                                <img class="new-icon" src="../img/giohang.jpg" alt="hinh">
+                                <div class="price"><del>1100$</del>  950$</div>
+                            </div>
+                            </div>   
+                            <div class="col-25">
+                                <div class="prod">
+                                    <div class="name">Airpod Pro</div>
+                                    <img class="image" src="../img/airpodpro.jpg" alt="hinh">
+                                    <img class="new-icon" src="../img/giohang.jpg" alt="hinh">
+                                    <div class="price"><del>1099$</del>  199$</div>
+                                </div>
+                                </div>       
+                            </a>      
+            </div>
+            <div class="title"><h2>Sản phẩm gợi ý hôm nay</h2></div>
+            <div class="sanpham">
+                <a href="#">
+                <div class="col-25">
+                    <div class="prod">
+                        <div class="name">Áo Jacket</div>
+                        <img class="image" src="../img/jacket.jpg" alt="hinh">
+                        <div class="in4"> <h3>Jacket đa dạng kiểu dáng và thiết kế và được ứng dụng rộng rãi từ formal cho đến casual.</h3></div>
+                        <div class="price"> 199.000đ</div>
+                        
+                    </div>
+                    </div>   
+                    <div class="col-25">
+                        <div class="prod">
+                            <div class="name">Dép Quai Ngang</div>
+                            <img class="image" src="../img/dep.jpg" alt="hinh">
+                            <div class="in4"><h3>Mang êm chân: Ưu điểm lớn nhất của dép quai ngang đế cao su là mang đến sự êm ái cho đôi chân của bạn.</h3></div>
+                            <div class="price">99.000đ</div>
+
+                        </div>
+                        </div>
+                        <div class="col-25">
+                            <div class="prod">
+                                <div class="name">Giày Sneaker</div>
+                                <img class="image" src="../img/sneaker.jpg" alt="hinh">
+                                <div class="in4"><h3>Giày Thể Thao Nam ,Trẻ Trung Năng Động, Đi Mềm Êm Chân</h3></div>
+                                <div class="price">299.000đ</div>
+                               
+                            </div>
+                            </div>   
+                            <div class="col-25">
+                                <div class="prod">
+                                    <div class="name">Mũ Lưỡi Trai</div>
+                                    <img class="image" src="../img/muluoitrai.jpg" alt="hinh">
+                                    <div class="in4"><h3>Tăng độ cá tính và trẻ trung </h3></div>
+                                    <div class="price"> 150.000đ</div>
+                                    
+                                </div>
+                                </div>            
+            </div>
+        </a>
+        </main>
+        
+    </div>
+    <footer>
+        
+</body>
+</html> 
